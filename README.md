@@ -12,18 +12,28 @@ npm install page-info
 
 ## Quick Start
 ```javascript
-var page = require('page-info');
+var pageInfo = require('page-info');
 
-page.info('google.com', function (info) {
-  console.log(info);
+pageInfo('google.com', function (page) {
+
+  log(page.icon())
+  log(page.favicon())
+  log(page.shortcutIcon())
+
+  log(page.title())
+  log(page.description())
+  log(page.bodyText())
+  log(page.firstDivText())
+  log(page.firstParagraphText())
+
+  log(page.thumbnail())
+  log(page.firstImg())
+
 });
 ```
 
 
 ## API
-
-#### info(String url, Function callback)
-
 
 ## License
 
