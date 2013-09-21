@@ -15,7 +15,7 @@ var google = 'google.com';
 var baidu = 'www.baidu.com';
 var designmodo = 'http://designmodo.com/long-shadows-design/';
 
-var url = baidu;
+var url = 'http://stackoverflow.com/questions/18881982/how-can-i-get-all-the-doc-ids-in-mongodb/18883039?noredirect=1#comment27890387_18883039';
 
 pageInfo(url, function (page) {
 
@@ -27,9 +27,9 @@ pageInfo(url, function (page) {
 
   log('title', page.title())
   log('description', page.description())
-  log('bodyText', page.bodyText())
-  log('firstDivText', page.firstDivText())
-  log('firstParagraphText', page.firstParagraphText())
+  // log('bodyText', page.bodyText())
+  // log('firstDivText', page.firstDivText())
+  // log('firstParagraphText', page.firstParagraphText())
 
   log('thumbnail', page.thumbnail())
   log('firstImg', page.firstImg())
