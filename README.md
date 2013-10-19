@@ -9,6 +9,8 @@ A simple page info taker.
 npm install page-info
 ```
 
+## Features
+- follow `301` `302` redirection
 
 ## Quick Start
 ```javascript
