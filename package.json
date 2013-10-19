@@ -16,9 +16,14 @@
   },
   "dependencies": {
     "cheerio": "*",
+    "encoding": "*",
+    "reges": "*",
+    "node-http": "*",
     "bupper": "*"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "simple-test": "*"  
+  },
   "scripts": {},
   "license": "MIT"
 }
